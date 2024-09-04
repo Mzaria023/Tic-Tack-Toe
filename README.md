@@ -3,7 +3,11 @@ This is an implementation of the classic Tic-Tac-Toe game using JavaFX. The appl
 
 
 #Features
+
 Interactive GUI: Utilizes JavaFX for a visually appealing and user-friendly interface.
+
 Player vs. Computer: Players take turns with the computer, which makes moves automatically.
+
 Win and Draw Detection: Automatically detects win conditions and draws, displaying appropriate messages.
+
 Responsive Layout: The game board and buttons resize to fit the window, maintaining usability on different screen sizes.
