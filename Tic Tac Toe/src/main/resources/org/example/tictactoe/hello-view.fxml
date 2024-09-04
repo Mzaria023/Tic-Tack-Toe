@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.tictactoe.TicTacToeController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label fx:id="statusLabel" text="Player X's Turn"/>
+
+    <GridPane fx:id="gridPane" hgap="10" vgap="10">
+        <Button fx:id="button00" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <Button fx:id="button01" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        <Button fx:id="button02" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+        <Button fx:id="button10" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <Button fx:id="button11" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        <Button fx:id="button12" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+        <Button fx:id="button20" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <Button fx:id="button21" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        <Button fx:id="button22" minWidth="100" minHeight="100" style="-fx-font-size: 36; -fx-font-weight: bold;" onAction="#handleButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+    </GridPane>
+</VBox>
